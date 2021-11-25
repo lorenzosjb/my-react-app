@@ -1,8 +1,8 @@
 import React from 'react';
 
-const HelloWorld = () => {
+const HelloWorld = (props) => {
   return (
-      <h3>Hello World</h3>
+      <h3>Hello World, {props.value}</h3>
   );
 };
 
